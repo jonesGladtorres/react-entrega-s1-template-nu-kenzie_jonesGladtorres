@@ -32,7 +32,7 @@ export function Form({setValueList}){
             <StyledInput type="number" value={value} placeholder="1" onChange={(e) => setValue(e.target.value)} required/>
             <StyleLabel>{'Tipo de valor'}</StyleLabel>
             <StyledSelect value={type} onChange={(e) => setType(e.target.value)} required>
-                <option hidden>Selecione...</option>
+                <option value="" hidden>Selecione...</option>
                 <option value="Entrada">Entrada</option>
                 <option value="Despesa">Despesa</option>
             </StyledSelect>

@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
     margin-bottom: 3.125rem;
 
     @media (max-width: 425px) {
-        width: 100%;
+        width: 100vw;
         padding: 2.5rem 0 2.5rem 2.5rem;
     }
 `
